@@ -9,11 +9,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RezaB.API.TCKValidation</RootNamespace>
     <AssemblyName>RezaB.API.TCKValidation</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-	<PackageDescription>TCK Validation Service Wrapper</PackageDescription>
+    <PackageDescription>TCK Validation Service Wrapper</PackageDescription>
     <RepositoryUrl>https://github.com/masteriss/RezaB.API.TCKValidation</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,8 +67,11 @@
     <None Include="KPSPublicV2.asmx.wsdl" />
     <None Include="KPSPublicYabanciDogrula.asmx.wsdl" />
     <None Include="Service References\ForeignerTCKValidationServiceReference\KPSPublicYabanciDogrula.wsdl" />
+    <None Include="Service References\ForeignerTCKValidationServiceReference\RezaB.API.TCKValidation.ForeignerTCKValidationServiceReference.YabanciKimlikNoDogrulaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\TCKValidationServiceReference\KPSPublicV2.wsdl" />
-    <None Include="Service References\TCKValidationServiceReference\RadiusR.API.TCKValidation.TCKValidationServiceReference.KisiVeCuzdanDogrulaResponse.datasource">
+    <None Include="Service References\TCKValidationServiceReference\RezaB.API.TCKValidation.TCKValidationServiceReference.KisiVeCuzdanDogrulaResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
   </ItemGroup>
